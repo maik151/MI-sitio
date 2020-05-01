@@ -1,0 +1,349 @@
+*{
+    
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+#contenedor{
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+width: 100%;
+background:linear-gradient(90deg,crimson,rgb(255,166,0),crimson,rgb(255,166,0),crimson);
+    animation: animate 18s linear infinite;
+background-size: 400%;
+color: blanchedalmond;
+}
+@keyframes animate{
+    0%{
+        background-position: 0%;
+    }
+    100%{
+        background-position:400%;
+    }
+
+
+
+}
+
+#contenedor #barra{
+   
+    width: 100%;
+    background: crimson;
+
+}
+#contenedor #barra ol{
+    display: flex;
+    width: 100%;
+   
+
+}
+#contenedor #barra ol li{
+    padding: 15px 20px;
+    list-style: none;
+    background-color: rgb(14, 14, 14);
+    width: 100%;
+    transition: .3s;    
+    
+    font-size: 17px;
+    text-align: center;
+
+
+}
+#contenedor #barra ol li:hover{
+    border-top: solid 2px crimson;
+    padding-top: 13px;
+    color: crimson; 
+    transition: .3s;
+    transform: translateY(2px);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+div img{
+    width: 100%;
+    height:100% ;
+    background-attachment: fixed;
+}
+
+
+
+section{
+    margin-top: 50px;
+    width: 100%;
+    height: 100%;
+    background:linear-gradient(90deg,crimson,rgb(255,166,0),crimson,rgb(255,166,0),crimson);
+    animation: animate 18s linear infinite;
+background-size: 400%;
+    color: rgb(14, 14, 14);
+    display:flex
+}
+
+@keyframes animate{
+    0%{
+        background-position: 0%;
+    }
+    100%{
+        background-position:400%;
+    }
+
+
+
+}
+
+
+section article{
+padding-top:50px;
+padding-bottom:50px;
+
+padding-left:50px;
+padding-right:50px;
+border-right: 2px solid crimson;
+}
+section article .logo{
+    box-shadow: 1px 1px 50px 10px  #000;
+    
+}
+
+section article .textoo{
+    padding-top:50px;
+    
+}
+
+
+section article .button{
+background:rgb(14, 14, 14);
+margin: 30px 2px;
+width: 50%;
+
+color: white;
+padding:30px 0px;
+text-align: center;
+transition: .3s;
+}
+section article .button:hover{
+    background: crimson;
+    transition: .3s;
+}
+
+
+
+section .art2{
+    border: none;
+
+}
+
+
+footer{
+    background: white;
+    color: #000;
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+footer .redes_sociales{
+    text-align: center;
+    
+}
+
+footer .redes{
+    font-size: 40px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+footer .redes div{
+padding: 1px 10px;
+
+}
+
+
+
+.icon-facebook:before:link{
+    text-decoration: none;
+}
+.icon-facebook:before {
+    content: "\e9fb";
+    color: #202020;
+    transition: .3s;
+    
+  }
+  .icon-facebook:hover:before {
+    content: "\e9fb";
+    color: #1877f2;
+    transition: .3s;
+  }
+
+
+
+
+
+
+  .icon-gmail:before {
+    content: "\ea2b";
+    color: #202020;
+    transition: .3s;
+  }
+
+  .icon-gmail:hover:before {
+    content: "\ea2b";
+    color: #d14836;
+    transition: .3s;
+  }
+
+
+  .icon-twitter:before {
+    content: "\ec3e";
+    color: #202020;
+    transition: .3s;
+  }
+  .icon-twitter:hover:before {
+    content: "\ec3e";
+    color: #1da1f2;
+    transition: .3s;
+  }
+
+
+  .icon-instagram:before {
+    content: "\ea83";
+    color: #202020;
+    transition: .3s;
+  }
+
+  .icon-instagram:hover:before {
+    content: "\ea83";
+    color: #e4405f;
+    transition: .3s;
+  }
+
+
+  .icon-youtube:before {
+    content: "\ec97";
+    color: #202020;
+    transition: .3s;
+  }
+
+  .icon-youtube:hover:before {
+    content: "\ec97";
+    transition: .3s;
+    color: #f00;
+  }
+  
+  .icon-spotify:before {
+    content: "\ebe9";
+    color: #202020;
+    transition: .3s;
+  }
+  .icon-spotify:hover:before {
+    content: "\ebe9";
+    transition: .3s;
+    color: #1ed760;
+  }
+
+  .icon-serverfault:before {
+    content: "\ebbc";
+    color: #080808;
+    font-size: 50px;
+    
+  }
+
+
+  #contenedor #barra input{
+    display: none;
+}
+
+#contenedor #barra label{
+    display:none;s
+}
+
+@media all and (max-width:1024px){
+
+    #contenedor #barra input{
+        display: none;
+    }
+
+    #contenedor #barra label{
+        display:none;s
+    }
+
+   #contenedor{
+       
+       width: 100%;
+   }
+   #contenedor #barra ol li{
+       font-size: 13px;
+   }
+
+}
+
+
+@media all and (max-width:768px){
+    #contenedor #barra input{
+        display: none;
+    }
+
+    #contenedor #barra label{
+        display:block;
+    }
+
+
+
+    #contenedor #barra{
+        padding-top: 20px;
+        padding-bottom: 20px;
+        
+        width: 100%;
+    }
+
+    #contenedor #barra ol{
+        display: none;
+        flex-direction: column;
+        width: 100%;
+    }
+    
+
+
+    #contenedor #barra #checkbox:checked~ol{
+    display: block;
+    margin-left:-40px;
+    width: 100%;
+    
+    }
+    #contenedor #barra input{
+        display:none
+    }
+    #contenedor #barra label{
+        margin-left: 25px;
+    }
+
+}
+
+
+@media all and (max-width:425px){
+    section{
+        flex-direction: column;
+
+    }
+    footer .redes{
+        font-size: 30px;
+    }
+    footer .redes_sociales{
+        font-size: 25px;
+    }
+
+
+
+}
